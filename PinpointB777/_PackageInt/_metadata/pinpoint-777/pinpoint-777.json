@@ -1,0 +1,40 @@
+{
+  "validation": {
+    "package_path": "C:\\Users\\malik\\OneDrive\\Documents\\GitHub\\Pinpoint-Sims-777\\PinpointB777\\Packages\\pinpoint-777",
+    "validation_time": "Thu Apr  8 20:30:48 2021",
+    "validation_msecs": 24,
+    "validation_result": "failed"
+  },
+  "meta": {
+    "valid": true,
+    "error_messages": [],
+    "warning_messages": []
+  },
+  "manifest": {
+    "valid": false,
+    "package_title": "",
+    "package_content_type": "",
+    "package_version": "",
+    "package_minimum_game_version": "",
+    "error_messages": [
+      "Missing or invalid Manifest file 'C:\\Users\\malik\\OneDrive\\Documents\\GitHub\\Pinpoint-Sims-777\\PinpointB777\\Packages\\pinpoint-777\\manifest.json'"
+    ],
+    "warning_messages": []
+  },
+  "layout": {
+    "valid": false,
+    "num_directories": 0,
+    "num_files": 0,
+    "invalid_paths": [],
+    "missing_directories": [],
+    "missing_files": [],
+    "wrong_size_files": [],
+    "over_max_size_files": [],
+    "duplicated_paths": [],
+    "mismatched_paths": [],
+    "error_messages": [
+      "Missing or invalid Layout file 'C:\\Users\\malik\\OneDrive\\Documents\\GitHub\\Pinpoint-Sims-777\\PinpointB777\\Packages\\pinpoint-777\\layout.json'"
+    ],
+    "warning_messages": []
+  }
+}

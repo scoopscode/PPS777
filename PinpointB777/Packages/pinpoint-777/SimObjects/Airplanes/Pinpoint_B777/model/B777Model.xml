@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ModelInfo>
+
+	<LODS>
+		<!-- Highest LOD -->
+		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
+		<!-- default minSize is 0 -->
+		<LOD minSize="50" ModelFile="B777_LOD00.gltf"/>
+	</LODS>
+
+	<Animation name="c_wheel" 				guid="BC935F16-43CD-4046-8EF3-06E44A5940AB" length="200" type="Sim" typeparam2="c_wheel" typeparam="AutoPlay" />
+	
+	<Animation name="c_gear" 				guid="E2E339A6-FCBF-43a9-A780-3473E03AB54B" length="100" type="Sim" typeparam2="c_gear" typeparam="AutoPlay" />
+	<Animation name="l_gear" 				guid="E6A307E6-D0D8-4ca0-8A8E-77B7EA22FFB9" length="100" type="Sim" typeparam2="l_gear" typeparam="AutoPlay" />  
+	<Animation name="r_gear" 				guid="77C00B94-DDA1-450a-B725-1E2B4ADF6BC8" length="100" type="Sim" typeparam2="r_gear" typeparam="AutoPlay" />
+
+	<Animation name="c_tire_anim" 			guid="40470978-5D39-4709-94F2-0406CC893774" length="100" type="Sim" typeParam2="c_tire_anim" typeParam="AutoPlay" />	
+	<Animation name="l_tire_anim" 			guid="59A85118-0DDD-46D1-81BC-62B7E1A46782" length="100" type="Sim" typeParam2="l_tire_anim" typeParam="AutoPlay" />  
+	<Animation name="r_tire_anim" 			guid="0FE2DDBC-B7B0-41EC-9B7A-EE04C5B02446" length="100" type="Sim" typeParam2="r_tire_anim" typeParam="AutoPlay" />	
+
+	<Animation name="prop_anim" 			guid="E8A94AB5-CBBD-4978-862B-4D78D9FF3E25" length="100" type="Sim" typeParam2="prop_anim" typeParam="AutoPlay" />
+	<Animation name="prop1_blurred" 		guid="a30d1108-0e02-4e78-a41a-4c072a815e90" length="100" type="Sim" typeParam2="prop1_blurred" typeParam="AutoPlay" />
+	<Animation name="prop1_slow" 			guid="b964023e-998f-40bf-9875-19f21c3b8031" length="100" type="Sim" typeParam2="prop1_slow" typeParam="AutoPlay" />
+	<Animation name="prop1_still" 			guid="1ca952e2-9e61-4905-b1ca-46a2c07b8bdf" length="100" type="Sim" typeParam2="prop1_still" typeParam="AutoPlay" />
+
+	<Animation name="elevator_percent_key" 	guid="69fced03-9a10-49a7-aa82-2b79ab5b63e0" length="100" type="Sim" typeParam2="elevator_percent_key" typeParam="AutoPlay" />
+
+	<Animation name="l_aileron_percent_key" guid="bad53e9a-1958-4b22-90fe-23513d121db3" length="100" type="Sim" typeParam2="l_aileron_percent_key" typeParam="AutoPlay" />
+	<Animation name="r_aileron_percent_key" guid="77db62be-36d4-4c03-bea7-c4cc2a224d9d" length="100" type="Sim" typeParam2="r_aileron_percent_key" typeParam="AutoPlay" />
+
+	<Animation name="l_flap_percent_key" 	guid="DB029E5C-1A48-42d5-8290-EF098DFABB4F" length="100" type="Sim" typeparam2="l_flap_percent_key" typeparam="AutoPlay" />
+	<Animation name="r_flap_percent_key" 	guid="3849E47F-9088-4699-8959-EC0C54DF8015" length="100" type="Sim" typeparam2="r_flap_percent_key" typeparam="AutoPlay" />
+
+	<Animation name="rudder_percent_key" 	guid="5433b2a0-0fd9-4192-8f7d-0ba36bf7191d" length="100" type="Sim" typeParam2="rudder_percent_key" typeParam="AutoPlay" />
+
+	<PartInfo>
+        <Name>c_wheel</Name>
+        <AnimLength>200</AnimLength>
+        <Animation>
+            <Parameter>
+          <Code>
+            (A:GEAR CENTER STEER ANGLE, grads) 0 &gt; if{ (A:GEAR CENTER STEER ANGLE, grads) 0.5 * } els{ (A:GEAR CENTER STEER ANGLE, grads) 0.5 * 200 + }
+          </Code>
+            </Parameter>
+        </Animation>
+        <MouseRect>
+            <TooltipID>TOOLTIPTEXT_STEER_ANGLE</TooltipID>
+        </MouseRect>
+    </PartInfo>
+	
+    <PartInfo>
+        <Name>prop_anim</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>PROP ROTATION ANGLE:1</Variable>
+                    <Units>radians</Units>
+                    <Scale>15.92</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+    		
+  <PartInfo>
+    <Name>prop1_still</Name>
+    <AnimLength>100</AnimLength>
+    <Visibility>
+      <Parameter>
+        <Code>
+          (A:PROP MAX RPM PERCENT:1, percent) 6.25 &lt; if{ 1 } els{ 0 }
+        </Code>
+      </Parameter>
+    </Visibility>
+  </PartInfo>
+
+  <PartInfo>
+      <Name>prop1_slow</Name>
+        <AnimLength>100</AnimLength>
+        <Visibility>
+            <Parameter>
+                <Code>
+                    (A:PROP MAX RPM PERCENT:1, percent) 6.25 &gt;
+                    if{
+                        (A:PROP MAX RPM PERCENT:1, percent) 12.5 &lt; if{ 1 } els{ 0 }
+                    } els{ 0 }
+                </Code>
+            </Parameter>
+        </Visibility>
+    </PartInfo>
+    
+    <PartInfo>
+        <Name>prop1_blurred</Name>
+        <AnimLength>100</AnimLength>
+        <Visibility>
+            <Parameter>
+                <Code>
+            (A:PROP MAX RPM PERCENT:1, percent) 12.5 &gt; if{ 1 } els{ 0 }
+                </Code>
+            </Parameter>
+        </Visibility>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>c_gear</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GEAR ANIMATION POSITION:0</Variable>
+                    <Units>number</Units>
+					<Scale>100</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>l_gear</Name>
+        <Copy>c_gear</Copy>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GEAR ANIMATION POSITION:1</Variable>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+    <PartInfo>
+        <Name>r_gear</Name>
+        <Copy>c_gear</Copy>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>GEAR ANIMATION POSITION:2</Variable>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>c_tire_anim</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>CENTER WHEEL ROTATION ANGLE</Variable>
+                    <Units>radians</Units>
+                    <Bias>0</Bias>
+                    <Scale>15.91</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+        <Name>l_tire_anim</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>LEFT WHEEL ROTATION ANGLE</Variable>
+                    <Units>radians</Units>
+                    <Bias>0</Bias>
+                    <Scale>15.91</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+        <Name>r_tire_anim</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>RIGHT WHEEL ROTATION ANGLE</Variable>
+                    <Units>radians</Units>
+                    <Bias>0</Bias>
+                    <Scale>15.91</Scale>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+	
+	<PartInfo>
+        <Name>elevator_percent_key</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>ELEVATOR DEFLECTION PCT</Variable>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+        <Name>l_aileron_percent_key</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>AILERON LEFT DEFLECTION PCT</Variable>
+                    <Scale>1</Scale>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+        <Name>r_aileron_percent_key</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>AILERON RIGHT DEFLECTION PCT</Variable>
+                    <Scale>1</Scale>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+	<PartInfo>
+		<Name>l_flap_percent_key</Name>
+		<AnimLength>100</AnimLength>
+		<Animation>
+			<Parameter>
+				<Sim>
+					<Variable>TRAILING EDGE FLAPS LEFT PERCENT</Variable>
+					<Units>percent</Units>
+					<Scale>1</Scale>
+					<Bias>0</Bias>
+				</Sim>
+			</Parameter>
+		</Animation>
+	</PartInfo>
+
+	<PartInfo>
+		<Name>r_flap_percent_key</Name>
+		<AnimLength>100</AnimLength>
+		<Animation>
+			<Parameter>
+				<Sim>
+					<Variable>TRAILING EDGE FLAPS RIGHT PERCENT</Variable>
+					<Units>percent</Units>
+					<Scale>1</Scale>
+					<Bias>0</Bias>
+				</Sim>
+			</Parameter>
+		</Animation>
+	</PartInfo>
+
+	<PartInfo>
+        <Name>rudder_percent_key</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Sim>
+                    <Variable>RUDDER DEFLECTION PCT</Variable>
+                    <Units>percent</Units>
+                    <Bias>50</Bias>
+                </Sim>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+</ModelInfo>
