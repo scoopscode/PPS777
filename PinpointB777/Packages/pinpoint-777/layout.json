@@ -1,0 +1,154 @@
+{
+  "content": [
+    {
+      "path": "ContentInfo/pinpoint-b777/Thumbnail.jpg",
+      "size": 13520,
+      "date": 132631296093696396
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/ai.cfg",
+      "size": 1512,
+      "date": 132631494072693592
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/aircraft.cfg",
+      "size": 2441,
+      "date": 132631494074020042
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/Approach.flt",
+      "size": 2828,
+      "date": 132611438780187573
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/apron.flt",
+      "size": 2740,
+      "date": 132611438780207521
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/cameras.cfg",
+      "size": 25385,
+      "date": 132631494051978537
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/Climb.flt",
+      "size": 3066,
+      "date": 132611438780197547
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/cockpit.cfg",
+      "size": 5140,
+      "date": 132631494072524044
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/Cruise.flt",
+      "size": 2828,
+      "date": 132611438780197547
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/engines.cfg",
+      "size": 8588,
+      "date": 132631494065462685
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/Final.flt",
+      "size": 2827,
+      "date": 132611438780197547
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/flight_model.cfg",
+      "size": 14032,
+      "date": 132631494063148871
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/gameplay.cfg",
+      "size": 1142,
+      "date": 132631494072543996
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/hangar.flt",
+      "size": 2740,
+      "date": 132611438780227467
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/model/B777Model.xml",
+      "size": 9648,
+      "date": 132631314865441988
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/model/B777_LOD00.bin",
+      "size": 23172696,
+      "date": 132631517984967955
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/model/B777_LOD00.gltf",
+      "size": 2094540,
+      "date": 132631517985087633
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/model/model.CFG",
+      "size": 648,
+      "date": 132631296094274849
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/panel/panel.cfg",
+      "size": 61,
+      "date": 132631296094274849
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/runway.FLT",
+      "size": 2662,
+      "date": 132611438781204852
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/sound/MyCompany_Simple_Aircraft.PC.PCK",
+      "size": 14439673,
+      "date": 132631296094843328
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/sound/sound.xml",
+      "size": 10914,
+      "date": 132631296094853302
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/soundAI/MyCompany_Simple_Aircraft_AI.PC.PCK",
+      "size": 4974772,
+      "date": 132631296095192421
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/soundAI/soundai.xml",
+      "size": 2951,
+      "date": 132631296095202378
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/systems.cfg",
+      "size": 22490,
+      "date": 132631494071436952
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/target_performance.cfg",
+      "size": 2301,
+      "date": 132611438784027312
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/taxi.flt",
+      "size": 2663,
+      "date": 132611438784037276
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/texture/texture.CFG",
+      "size": 38,
+      "date": 132631296096075094
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/texture/thumbnail.JPG",
+      "size": 44703,
+      "date": 132631296096075094
+    },
+    {
+      "path": "SimObjects/Airplanes/Pinpoint_B777/texture/thumbnail_small.JPG",
+      "size": 11048,
+      "date": 132631296096085062
+    }
+  ]
+}

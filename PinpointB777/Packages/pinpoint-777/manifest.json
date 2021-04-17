@@ -1,0 +1,15 @@
+{
+  "dependencies": [],
+  "content_type": "AIRCRAFT",
+  "title": "Boeing B777",
+  "manufacturer": "Boeing",
+  "creator": "Pinpoint Simulations",
+  "package_version": "0.1.0",
+  "minimum_game_version": "1.15.8",
+  "release_notes": {
+    "neutral": {
+      "LastUpdate": "",
+      "OlderHistory": ""
+    }
+  }
+}

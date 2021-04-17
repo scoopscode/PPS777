@@ -1,0 +1,199 @@
+{
+  "market-data": {
+    "Neutral": {
+      "creator": "Pinpoint Simulations",
+<<<<<<< HEAD
+      "title": "Boeing B777",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Elit ut aliquam purus sit amet luctus venenatis lectus. Enim neque volutpat ac tincidunt vitae. Sed sed risus pretium quam vulputate dignissim suspendisse. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Amet aliquam id diam maecenas ultricies mi. Lectus quam id leo in vitae turpis massa sed elementum. Egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel. Nibh tellus molestie nunc non blandit massa. Diam ut venenatis tellus in metus vulputate eu. Volutpat blandit aliquam etiam erat velit scelerisque. Eget dolor morbi non arcu risus.",
+=======
+      "title": "PPS777-300ER",
+      "description": "Description",
+>>>>>>> acb96abb2c34980fa0c42dfd9d19f1dfcce7cb47
+      "tags": "AIRCRAFT,AIRLINER,MY CUSTOM TAG, ANOTHER AWESOME TAG",
+      "thumbnail_main": "",
+      "thumbnail_secondary": "",
+      "categories": "TT:MARKETPLACE.CATEGORY.AIRCRAFT\/TT:MARKETPLACE.CATEGORY.AIRCRAFT.PISTON",
+      "media-backgrounds": [
+        "placeholder3840x2160.jpg,placeholder3840x2160.jpg",
+        "placeholder3840x2160.jpg,placeholder3840x2160.jpg",
+        "placeholder3840x2160.jpg,placeholder3840x2160.jpg"
+      ],
+      "blocks": [
+        {
+          "type": "HISTORICAL-DATA",
+          "data": {
+            "text": ""
+          }
+        },
+        {
+          "type": "SPECS",
+          "data": {
+            "values": [
+              {
+                "name": "SPEED",
+                "valueStr": "Cruise: Mach 0.84, Max.: Mach 0.89"
+              },
+              {
+                "name": "CEILING",
+                "valueStr": "43,100 ft"
+              },
+              {
+                "name": "TYPICAL RANGE",
+                "valueStr": "13,649 km \/ 7,370 nmi"
+              },
+              {
+                "name": "LENGTH",
+                "valueStr": "73.86 m (242 ft 4 in)"
+              },
+              {
+                "name": "WINGSPAN",
+                "valueStr": "64.80 m (212 ft 7 in)"
+              },
+              {
+                "name": "HEIGHT",
+                "valueStr": "18.50 m (60 ft 8 in)"
+              },
+              {
+                "name": "TAKEOFF",
+                "valueStr": "3,050 m (10,000 ft)"
+              },
+              {
+                "name": "MAX WEIGHT",
+                "valueStr": "25.5 t (56,200 lb)"
+              },
+              {
+                "name": "MAX TAKEOFF WEIGHT",
+                "valueStr": "351,533 kg (775,000 lb)"
+              },
+              {
+                "name": "FUEL CAPACITY",
+                "valueStr": "181,283 l (8,700 USg)"
+              },
+              {
+                "name": "ENGINE",
+                "valueStr": "2x GE90-115B"
+              },
+              {
+                "name": "COCKPIT CREW",
+                "valueStr": "2"
+              }
+            ]
+          }
+        },
+        {
+          "type": "MEDIASLIDER",
+          "data": {
+            "medias": [
+              {
+                "thumbnail": "placeholder3236x1816.jpg"
+              },
+              {
+                "thumbnail": "placeholder3236x1816.jpg"
+              },
+              {
+                "thumbnail": "placeholder3236x1816.jpg"
+              }
+            ]
+          }
+        },
+        {
+          "type": "MEDIASCROLLER",
+          "data": {
+            "medias": [
+              {
+                "thumbnail": "placeholder940x530.jpg"
+              },
+              {
+                "thumbnail": "placeholder940x530.jpg"
+              }
+            ]
+          }
+        },
+        {
+          "type": "MEDIASLIDER",
+          "data": {
+            "medias": [
+              {
+                "thumbnail": "placeholder3236x1816.jpg"
+              }
+            ]
+          }
+        },
+        {
+          "type": "MEDIASCROLLER",
+          "data": {
+            "medias": [
+              {
+                "thumbnail": "placeholder940x530.jpg"
+              },
+              {
+                "thumbnail": "placeholder940x530.jpg"
+              },
+              {
+                "thumbnail": "placeholder940x530.jpg"
+              },
+              {
+                "thumbnail": "placeholder940x530.jpg"
+              },
+              {
+                "thumbnail": "placeholder940x530.jpg"
+              },
+              {
+                "thumbnail": "placeholder940x530.jpg"
+              }
+            ]
+          }
+        },
+        {
+          "type": "LIVERIES",
+          "data": {
+            "liveries": [
+              {
+                "media": {
+                  "thumbnail": "placeholder515x290.jpg"
+                },
+                "primaryHexaColor": "#3291A8",
+                "secondaryHexaColor": "#FFFFFF"
+              },
+              {
+                "media": {
+                  "thumbnail": "placeholder515x290.jpg"
+                },
+                "primaryHexaColor": "#FF8E5A",
+                "secondaryHexaColor": "#5ACBFF"
+              },
+              {
+                "media": {
+                  "thumbnail": "placeholder515x290.jpg"
+                },
+                "primaryHexaColor": "#4867FF",
+                "secondaryHexaColor": "#48FFE4"
+              },
+              {
+                "media": {
+                  "thumbnail": "placeholder515x290.jpg"
+                },
+                "primaryHexaColor": "#FFA85C",
+                "secondaryHexaColor": "#FFD15C"
+              },
+              {
+                "media": {
+                  "thumbnail": "placeholder515x290.jpg"
+                },
+                "primaryHexaColor": "#1E8538",
+                "secondaryHexaColor": "#85FF39"
+              },
+              {
+                "media": {
+                  "thumbnail": "placeholder515x290.jpg"
+                },
+                "primaryHexaColor": "#CFA479",
+                "secondaryHexaColor": "#BAAD92"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<Timestamps>
+	<Entry Path="aircraft.cfg" Timestamp="13263129609"/>
+	<Entry Path="sound\MyCompany_Simple_Aircraft.PC.PCK" Timestamp="13263129609"/>
+	<Entry Path="target_performance.cfg" Timestamp="13261143878"/>
+	<Entry Path="soundAI\soundai.xml" Timestamp="13263129609"/>
+	<Entry Path="model\model.CFG" Timestamp="13263129609"/>
+	<Entry Path="flight_model.cfg" Timestamp="13261478747"/>
+	<Entry Path="engines.cfg" Timestamp="13261143878"/>
+	<Entry Path="texture\texture.CFG" Timestamp="13263129609"/>
+	<Entry Path="Climb.flt" Timestamp="13261143878"/>
+	<Entry Path="soundAI\MyCompany_Simple_Aircraft_AI.PC.PCK" Timestamp="13263129609"/>
+	<Entry Path="model\B777_LOD00.bin" Timestamp="13263134708"/>
+	<Entry Path="gameplay.cfg" Timestamp="13261143878"/>
+	<Entry Path="sound\sound.xml" Timestamp="13263129609"/>
+	<Entry Path="ai.cfg" Timestamp="13261143878"/>
+	<Entry Path="model\B777Model.xml" Timestamp="13263131486"/>
+	<Entry Path="Final.flt" Timestamp="13261143878"/>
+	<Entry Path="texture\thumbnail_small.JPG" Timestamp="13263129609"/>
+	<Entry Path="apron.flt" Timestamp="13261143878"/>
+	<Entry Path="Cruise.flt" Timestamp="13261143878"/>
+	<Entry Path="runway.FLT" Timestamp="13261143878"/>
+	<Entry Path="model\B777_LOD00.gltf" Timestamp="13263134709"/>
+	<Entry Path="cameras.cfg" Timestamp="13261143878"/>
+	<Entry Path="cockpit.cfg" Timestamp="13261143878"/>
+	<Entry Path="panel\panel.cfg" Timestamp="13263129609"/>
+	<Entry Path="taxi.flt" Timestamp="13261143878"/>
+	<Entry Path="Approach.flt" Timestamp="13261143878"/>
+	<Entry Path="hangar.flt" Timestamp="13261143878"/>
+	<Entry Path="systems.cfg" Timestamp="13261143878"/>
+	<Entry Path="texture\thumbnail.JPG" Timestamp="13263129609"/>
+</Timestamps>
+
