@@ -8,11 +8,11 @@
 
 ## About
 
-In March of 2021, we annouced our free project called the PPS 777 (Pinpoint Simulations 777) which is based off the Boeing 777-300ER aircraft. We plan to make the entire 777 family after we make the debut of the 777-300ER. Additionally, our project is open-source, which means *you* can contribute to the project in a multitude of different ways.
+In February of 2021, we annouced our free project called the PPS 777 (Pinpoint Simulations 777) which is based off the Boeing 777-300ER aircraft. We plan to make the entire 777 family after we make the debut of the 777-300ER. Additionally, our project is open-source, which means *you* can contribute to the project in a multitude of different ways.
 
 ## Download
 
-As of right now, we currently cannot offer the PPS 777 for download as it is not completed or ready for flight! With that being said, you can join our Discord and follow for updates there of models and the overall development of the aircraft.
+As of right now, we currently cannot offer the PPS 777 for download as it is not completed or ready for flight! With that being said, you can join our Discord and follow for updates of our models and the overall development of the aircraft.
 
 
 ## FAQ

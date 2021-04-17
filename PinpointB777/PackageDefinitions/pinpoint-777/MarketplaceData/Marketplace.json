@@ -2,8 +2,13 @@
   "market-data": {
     "Neutral": {
       "creator": "Pinpoint Simulations",
+<<<<<<< HEAD
       "title": "Boeing B777",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Elit ut aliquam purus sit amet luctus venenatis lectus. Enim neque volutpat ac tincidunt vitae. Sed sed risus pretium quam vulputate dignissim suspendisse. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Amet aliquam id diam maecenas ultricies mi. Lectus quam id leo in vitae turpis massa sed elementum. Egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel. Nibh tellus molestie nunc non blandit massa. Diam ut venenatis tellus in metus vulputate eu. Volutpat blandit aliquam etiam erat velit scelerisque. Eget dolor morbi non arcu risus.",
+=======
+      "title": "PPS777-300ER",
+      "description": "Description",
+>>>>>>> acb96abb2c34980fa0c42dfd9d19f1dfcce7cb47
       "tags": "AIRCRAFT,AIRLINER,MY CUSTOM TAG, ANOTHER AWESOME TAG",
       "thumbnail_main": "",
       "thumbnail_secondary": "",
@@ -26,31 +31,31 @@
             "values": [
               {
                 "name": "SPEED",
-                "valueStr": "Cruise: Mach 0.78, Max.: Mach 0.82"
+                "valueStr": "Cruise: Mach 0.84, Max.: Mach 0.89"
               },
               {
                 "name": "CEILING",
-                "valueStr": "39,100 – 39,800 ft"
+                "valueStr": "43,100 ft"
               },
               {
                 "name": "TYPICAL RANGE",
-                "valueStr": "6,500 km \/ 3,500 nmi"
+                "valueStr": "13,649 km \/ 7,370 nmi"
               },
               {
                 "name": "LENGTH",
-                "valueStr": "37.57 m (123 ft 3 in)"
+                "valueStr": "73.86 m (242 ft 4 in)"
               },
               {
                 "name": "WINGSPAN",
-                "valueStr": "35.80 m (117 ft 5 in)"
+                "valueStr": "64.80 m (212 ft 7 in)"
               },
               {
                 "name": "HEIGHT",
-                "valueStr": "11.76 m (38 ft 7 in)"
+                "valueStr": "18.50 m (60 ft 8 in)"
               },
               {
                 "name": "TAKEOFF",
-                "valueStr": "1,988 m (6,522 ft)"
+                "valueStr": "3,050 m (10,000 ft)"
               },
               {
                 "name": "MAX WEIGHT",
@@ -58,15 +63,15 @@
               },
               {
                 "name": "MAX TAKEOFF WEIGHT",
-                "valueStr": "97 t (213,800 lb)"
+                "valueStr": "351,533 kg (775,000 lb)"
               },
               {
                 "name": "FUEL CAPACITY",
-                "valueStr": "32,940 l (8,700 USg)"
+                "valueStr": "181,283 l (8,700 USg)"
               },
               {
                 "name": "ENGINE",
-                "valueStr": "CFM LEAP-1A or PW1100G"
+                "valueStr": "2x GE90-115B"
               },
               {
                 "name": "COCKPIT CREW",
