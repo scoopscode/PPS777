@@ -1,6 +1,6 @@
 {
     "name": "pps777",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "scripts": {
         "build": "rollup -c src/instruments/rollup.config.js"
     },
