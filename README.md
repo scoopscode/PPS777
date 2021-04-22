@@ -14,6 +14,9 @@ In February of 2021, we annouced our free project called the PPS 777 (Pinpoint S
 
 As of right now, we currently cannot offer the PPS 777 for download as it is not completed or ready for flight! With that being said, you can join our Discord and follow for updates of our models and the overall development of the aircraft.
 
+## Contributing
+
+See [Contributing.md](https://github.com/scoopscode/PPS777/blob/master/.github/Contributing.md)
 
 ## FAQ
 
