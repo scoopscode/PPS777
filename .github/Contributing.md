@@ -39,3 +39,4 @@ Please use #dev-support on our discord server to provide assistance or get assis
 
 
 
+![PPSbanner](https://github.com/PinpointSimulations/pps-branding/blob/main/assets/logos/Pinpoint-Banner.PNG)
