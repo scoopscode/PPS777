@@ -16,7 +16,7 @@ As of right now, we currently cannot offer the PPS 777 for download as it is not
 
 ## Contributing
 
-See [Contributing.md](https://github.com/scoopscode/PPS777/blob/master/.github/Contributing.md)
+See our[contributing guide here](https://github.com/scoopscode/PPS777/blob/master/.github/Contributing.md) or by going to our [website](https://pinpointsimulations.net/pull_requests.html)
 
 ## FAQ
 
@@ -32,9 +32,9 @@ Q: **What 3D software do we use?**
 
 A: *Our development team uses Blender, a free and open source 3D modeling program.*
 
-Q: **Do you guys make anything other than aircraft?**
+Q: **Are we making anything other than aircraft?**
 
-A: *Yes we do, we are currently developing the UAAA scenery. We do not have a repository for you to view those models but you can monitor the progress in our Discord.*
+A: *Yes are do, we are currently developing the UAAA scenery. We do not have a repository for you to view those models but you can monitor the progress in our Discord.*
 
 ## Branding
 
