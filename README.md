@@ -16,7 +16,7 @@ As of right now, we currently cannot offer the PPS 777 for download as it is not
 
 ## Contributing
 
-See our[contributing guide here](https://github.com/scoopscode/PPS777/blob/master/.github/Contributing.md) or by going to our [website](https://pinpointsimulations.net/pull_requests.html)
+See our [contributing guide here](https://github.com/scoopscode/PPS777/blob/master/.github/Contributing.md) or by going to our [website](https://pinpointsimulations.net/pull_requests.html).
 
 ## FAQ
 
