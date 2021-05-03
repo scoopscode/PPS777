@@ -40,4 +40,9 @@ A: *Yes are do, we are currently developing the UAAA scenery. We do not have a r
 
 For logos and assets for our brand, check [here](https://github.com/PinpointSimulations/pps-branding)
 
+## Legal
+
+Microsoft Flight Simulator © Microsoft Corporation. PPS777 was created under Microsoft's "Game Content Usage Rules" using assets from Microsoft Flight Simulator, and it is not endorsed by or affiliated with Microsoft. The Pinpoint Simulations logo, banner and other affiliated items are owned exclusively by Pinpoint Simulations and/or its subsidiaries. Brandon Grotesque is a registered font with the Creative Commons licence. Manipulation of the product is stricltly prohibited and violates [Terms of Service](https://pinpointsimulations.net/tos.html). 
+
+
 
