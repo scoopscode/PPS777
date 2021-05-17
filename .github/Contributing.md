@@ -27,6 +27,7 @@ Download the forked repository to your system.
 Open the file you would like to edit or add the file you would like to create to the repository folder.
 Run build.py inside of the (TBD) folder and test that your addition/edition works in sim.
 Commit and push to the branch and make a pull request and follow the template.
+Additionally, follow the following naming guideline here: `feat:, fix:, docs:, revamp:, add:`
 
 
 Your pull request will be reviewed by members of the dev team for code issues. After two dev team members have checked your pull request, it will be moved to the QA testing team to check for any functionality, realism, and/or general issues that arise inside the sim. After it has been QA tested your pull request will be merged.
