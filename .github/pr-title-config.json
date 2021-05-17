@@ -1,0 +1,11 @@
+{
+  "LABEL": {
+    "name": "Title Change",
+    "color": "EEEEEE"
+  },
+  "CHECKS": {
+    "prefixes": ["fix: ", "feat: ", "add: ", "docs: ", "revamp: "],
+    "regexp": "docs\\(v[0-9]\\): ",
+    "ignoreLabels" : ["dont-check-PRs-with-this-label", "meta"]
+  }
+}
