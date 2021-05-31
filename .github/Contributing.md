@@ -9,9 +9,9 @@ On behalf of the Pinpoint Simulations team, we would like to welcome you and tha
 A text editor is required to contribute to this project. A recommended text editor to use is vscode. 
 Here are some ways to integrate Github with your text editor:
 
-Git 
+[Git](https://git-scm.com/) 
 
-Github Desktop (Github Desktop is more friendly to beginners)
+[Github Desktop](https://desktop.github.com/) (Github Desktop is more friendly to beginners)
 
 ### Cloning and Building the aircraft
 Git Clone:
